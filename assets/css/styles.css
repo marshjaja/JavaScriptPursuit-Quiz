@@ -13,6 +13,8 @@ a:hover {
 	color: #8570a5;
 }
 
+.container a {
+}
 button {
 	display: inline-block;
 	margin: 5px;
@@ -85,4 +87,65 @@ li:nth-child(odd) {
 	position: absolute;
 	top: 10px;
 	right: 10px;
+}
+
+/* ===== MY CUSTOM STYLES ===== */
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+}
+
+/* .container * {
+	width: 100%;
+} */
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.home p {
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 36px;
+	margin-inline: 15%;
+}
+/* BUTTON STYLE */
+
+.btn {
+	font-size: 1.8rem;
+	padding: 1rem 0;
+	width: 20rem;
+	border: 0.1rem solid #563d7c;
+	margin-bottom: 1rem;
+	text-decoration: none;
+	color: #563d7c;
+	background-color: #fff;
+	text-align: center;
+}
+
+.btn:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 0.4rem 0 #563d7c;
+	transform: translateY(-0.1rem);
+	transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+	cursor: not-allowed;
+	box-shadow: none;
+	transform: none;
 }
