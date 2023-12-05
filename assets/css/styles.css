@@ -117,12 +117,12 @@ li:nth-child(odd) {
 	text-align: center;
 }
 
-.home p {
+/* .home p {
 	text-align: center;
 	margin-top: 24px;
 	margin-bottom: 36px;
 	margin-inline: 15%;
-}
+} */
 /* BUTTON STYLE */
 
 .btn {
